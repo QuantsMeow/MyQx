@@ -1,24 +1,10 @@
-// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
-// 作者：喵大人
-// 辅助：Monica & Gemini 3 Flash
-// 说明：Binance规则集
-// 
-// 2026年1月31日————创建文件，针对Binance建立专项分流规则
-// 
-// 主交易平台：binance.com（核心）
-// 区块链生态：binance.org, binance.cloud
-// 期货交易：binancefuture.com
-// 资讯教育：binance.info, bnbzh.ac
-// 静态资源：bnbstatic.com
-// 移动应用：bnappzh.co, appsflayer.com
-// 备用入口：binance.me, binance.im, binance.cc
-// 企业服务：saasexch.com, saasexch.cc
-// 辅助服务：binancecnt.com, bntrace.com
-// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
-
-
-
 // ✨━━━━━━━━━━━━━━━━━━━━━━━━Binance专项分流规则━━━━━━━━━━━━━━━━━━━━━━━━✨
+// 作者：喵大人
+// 辅助：Gemini & DeepSeek
+// 更新：
+// 2026年1月9日————创建文件，针对Binance建立专项分流规则
+// 2026年1月31日————优化代码界面，逐行注释域名含义
+// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
 
 // 移动应用分析和归因服务平台
 HOST-SUFFIX,appsflayer.com,Binance
@@ -67,3 +53,5 @@ HOST-SUFFIX,saasexch.cc,Binance
 
 // 软件即服务交易解决方案（主域名）
 HOST-SUFFIX,saasexch.com,Binance
+
+// ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
