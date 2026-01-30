@@ -1,0 +1,58 @@
+// ==========================================
+// 作者：喵大人
+// 辅助：Monica & Gemini
+// 说明：广告拦截规则集
+// 
+// 2026年1月9日————创建文件，针对Talkatone建立专项分流规则
+// 
+// 
+// 
+// 
+// 
+// 排序逻辑（按出现频率从高到低）：
+// 1. 第一梯队 (Google, AppLovin, Unity)：现代免费 App 的标配。
+// 2. 第二梯队 (Amazon, InMobi, Kochava)：在北美区 App 中非常活跃。
+// 3. 第三梯队 (Chartboost, PubMatic 等)：属于补充型的广告源。
+// ==========================================
+
+
+// ==================Talkatone建立专项分流规则======================
+
+// 拦截谷歌 DoubleClick 广告引擎，这是全球覆盖最广、出现频率最高的广告来源
+HOST-SUFFIX,googleads.g.doubleclick.net,AdsFree
+
+// 拦截 AppLovin 移动营销平台，目前移动端视频广告和插屏广告的巨头
+HOST-SUFFIX,applovin.com,AdsFree
+
+// 拦截 Unity 引擎内置广告，由于大量 App 使用 Unity 开发，其广告插件出现率极高
+HOST-SUFFIX,unity3d.com,AdsFree
+
+// 拦截亚马逊广告系统，在北美地区（Talkatone 所在地）的应用中非常普遍
+HOST-SUFFIX,amazon-adsystem.com,AdsFree
+
+// 拦截 InMobi 广告网络，全球领先的移动分发商，广告请求量巨大
+HOST-SUFFIX,inmobi.com,AdsFree
+
+// 拦截 Kochava 数据追踪，虽然不一定是视觉广告，但几乎所有主流 App 都会频繁请求它进行用户追踪
+HOST-SUFFIX,kochava.com,AdsFree
+
+// 拦截 Chartboost 广告，常用于移动端应用相互推荐的插屏广告
+HOST-SUFFIX,chartboost.com,AdsFree
+
+// 拦截 PubMatic 广告交换平台，常见的程序化交易广告，频率中等
+HOST-SUFFIX,pubmatic.com,AdsFree
+
+// 拦截 MobileFuse 移动广告服务，多见于美国本土应用，频率相对较低
+HOST-SUFFIX,mobilefuse.com,AdsFree
+
+// 拦截 Tappx 广告分发平台，在上述列表中属于相对小众的广告网络
+HOST-SUFFIX,tappx.com,AdsFree
+
+// Smaato 移动广告 SDK
+HOST,sdk-files.smaato.net,AdsFree
+
+// Criteo 广告追踪
+HOST,gum.criteo.com,AdsFree
+
+// Taboola 广告信标
+HOST,beacon.taboola.com,AdsFree
