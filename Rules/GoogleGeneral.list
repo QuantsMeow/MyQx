@@ -1,4 +1,4 @@
-// 📱━━━━━━━━━━━━━━━━━━━━━ GoogleVoice专项分流规则 ━━━━━━━━━━━━━━━━━━━━━📱
+// 📱━━━━━━━━━━━━━━━━━━━━ GoogleGeneral专项分流规则 ━━━━━━━━━━━━━━━━━━━━━📱
 
 //              ⋆｡˚         ⋆ 
 //          .        /\_/\      ˚✧
@@ -72,4 +72,3 @@ host-suffix, apis.google.com, GoogleGeneral
 host-suffix, clients1.google.com, GoogleGeneral
 
 // 📱━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━📱
-
