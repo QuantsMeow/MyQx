@@ -1,1 +1,138 @@
+// 👻━━━━━━━━━━━━━━━━━━━━ GoogleGemini专项分流规则 ━━━━━━━━━━━━━━━━━━━━━👻
 
+//              ⋆｡˚         ⋆ 
+//          .        /\_/\      ˚✧
+//               ~~~( •₋• )~~~ 
+//         ⋆      ฅ/  By  \ฅ    ˚
+//                 · 喵大人 ·       ⋆
+//            ˚✧       ⋆      ○
+
+// 参考：Gemini & DeepSeek & 抓包
+
+// 建议：使用“新加坡”策略组
+
+// 更新：
+//   2026年1月20日————创建文件，针对性建立专项分流规则
+//   2026年2月5日————优化代码界面，逐行注释域名含义
+//   2026年2月1日————
+
+// 👻························ [ 核心服务 ] ··························👻
+
+// ChatGPT官方主域名
+HOST-SUFFIX,chatgpt.com,OpenAI
+
+// OpenAI主域名
+HOST-SUFFIX,openai.com,OpenAI
+
+// OpenAI官方短域名
+HOST-SUFFIX,ai.com,OpenAI
+
+// OpenAI静态资源
+HOST-SUFFIX,oaistatic.com,OpenAI
+
+// 用户内容服务
+HOST-SUFFIX,oaiusercontent.com,OpenAI
+
+// OpenAI相关服务（关键词匹配）
+HOST-KEYWORD,openai,OpenAI
+
+// OpenAI网络自治系统
+IP-ASN,20473,OpenAI
+
+// 👻······················· [ API与验证 ] ·························👻
+
+// 验证码服务API
+HOST,openai-api.arkoselabs.com,OpenAI
+
+// 客户端验证码服务
+HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
+
+// 身份验证服务
+HOST-SUFFIX,auth0.com,OpenAI
+
+// 数字证书认证
+HOST-SUFFIX,identrust.com,OpenAI
+
+// API站点边缘服务
+HOST-SUFFIX,openaiapi-site.azureedge.net,OpenAI
+
+// 👻····················· [ 云存储与CDN服务 ] ······················👻
+
+// Azure前端服务
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
+
+// Azure存储服务
+HOST,openaicomproductionae4b.blob.core.windows.net,OpenAI
+
+// Azure边缘存储
+HOST,production-openaicom-storage.azureedge.net,OpenAI
+
+// 图片处理服务
+HOST-SUFFIX,openaicom.imgix.net,OpenAI
+
+// CDN加速域名
+HOST,chat.openai.com.cdn.cloudflare.net,OpenAI
+
+// 👻······················· [ 实时通信 ] ··························👻
+
+// 实时音视频服务
+HOST-SUFFIX,chatgpt.livekit.cloud,OpenAI
+
+// 实时服务主机
+HOST-SUFFIX,host.livekit.cloud,OpenAI
+
+// 实时传输服务
+HOST-SUFFIX,turn.livekit.cloud,OpenAI
+
+// 👻······················· [ 数据分析 ] ·························👻
+
+// 用于数据收集分析服务
+HOST,browser-intake-datadoghq.com,OpenAI
+
+// Cloudflare分析服务
+HOST,static.cloudflareinsights.com,OpenAI
+
+// 功能特性管理服务
+HOST-SUFFIX,api.statsig.com,OpenAI
+
+// 事件统计服务
+HOST-SUFFIX,events.statsigapi.net,OpenAI
+
+// 功能开关管理
+HOST-SUFFIX,featuregates.org,OpenAI
+
+// 观测分析服务
+HOST-SUFFIX,observeit.net,OpenAI
+
+// 数据分析平台
+HOST-SUFFIX,segment.io,OpenAI
+
+// 错误监控服务
+HOST-SUFFIX,sentry.io,OpenAI
+
+// 功能发布管理
+HOST-SUFFIX,launchdarkly.com,OpenAI
+
+// 👻······················· [ 三方集成 ] ·························👻
+
+// 搜索服务提供商
+HOST-SUFFIX,algolia.net,OpenAI
+
+// 客户沟通平台
+HOST-SUFFIX,intercom.io,OpenAI
+
+// 客户沟通平台CDN
+HOST-SUFFIX,intercomcdn.com,OpenAI
+
+// 支付处理服务
+HOST-SUFFIX,stripe.com,OpenAI
+
+// 👻······················· [ 独立IP ] ·························👻
+
+// OpenAI相关服务IP
+IP-CIDR,24.199.123.28/32,OpenAI
+
+// OpenAI相关服务IP
+IP-CIDR,64.23.132.171/32,OpenAI
+
+// 👻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━👻
