@@ -15,6 +15,7 @@
 // 2026年1月31日————优化代码界面，逐行注释域名含义
 
 // 🔭·························· [ 核心 ] ·····························🔭
+
 // X (Twitter) 主域名
 HOST-SUFFIX,twitter.com,X
 // X (Twitter) 官方短域名
@@ -29,6 +30,7 @@ HOST-SUFFIX,dev.twitter.com,X
 HOST-SUFFIX,status.twitter.com,X
 
 // 🔭·························· [ API ] ·····························🔭
+
 // X (Twitter) API服务
 HOST-SUFFIX,api.twitter.com,X
 // X (Twitter) 流式API
@@ -43,6 +45,7 @@ HOST-SUFFIX,analytics.twitter.com,X
 HOST-SUFFIX,enterprise.twitter.com,X
 
 // 🔭·························· [ 媒体 ] ·····························🔭
+
 // X (Twitter) 图片服务
 HOST-SUFFIX,pbs.twimg.com,X
 // X (Twitter) 视频服务
@@ -57,6 +60,7 @@ HOST-SUFFIX,live-video.net,X
 HOST-SUFFIX,encode.twitter.com,X
 
 // 🔭·························· [ 消息 ] ·····························🔭
+
 // X (Twitter) 私信服务
 HOST-SUFFIX,direct.twitter.com,X
 // X (Twitter) 推送服务
@@ -65,6 +69,7 @@ HOST-SUFFIX,push.twitter.com,X
 HOST-SUFFIX,queue.twitter.com,X
 
 // 🔭·························· [ 账户 ] ·····························🔭
+
 // X (Twitter) 账户服务
 HOST-SUFFIX,account.twitter.com,X
 // X (Twitter) 登录服务
@@ -77,6 +82,7 @@ HOST-SUFFIX,verify.twitter.com,X
 HOST-SUFFIX,password.twitter.com,X
 
 // 🔭·························· [ 广告 ] ·····························🔭
+
 // X (Twitter) 广告服务
 HOST-SUFFIX,ads.twitter.com,X
 // X (Twitter) 广告平台
@@ -87,6 +93,7 @@ HOST-SUFFIX,ads-analytics.twitter.com,X
 HOST-SUFFIX,ads-creative.twitter.com,X
 
 // 🔭·························· [ 开发者 ] ···························🔭
+
 // X (Twitter) 开发者文档
 HOST-SUFFIX,developer.twitter.com,X
 // X (Twitter) 应用管理
@@ -97,6 +104,7 @@ HOST-SUFFIX,devices.twitter.com,X
 HOST-SUFFIX,twemoji.com,X
 
 // 🔭·························· [ 第三方 ] ···························🔭
+
 // X (Twitter) CDN服务
 HOST-SUFFIX,cdn.twitter.com,X
 // X (Twitter) 内容分发网络
@@ -107,12 +115,14 @@ HOST-SUFFIX,twemoji.maxcdn.com,X
 HOST-SUFFIX,twimg.edgesuite.net,X
 
 // 🔭·························· [ 关键词 ] ···························🔭
+
 // 包含twitter关键词的域名
 HOST-KEYWORD,twitter,X
 // 包含x.com关键词的域名
 HOST-KEYWORD,x.com,X
 
 // 🔭·························· [ IP地址 ] ···························🔭
+
 // X (Twitter) IPv4地址段（示例）
 IP-CIDR,104.244.42.0/24,X
 // X (Twitter) IPv4地址段（示例）
