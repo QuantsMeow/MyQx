@@ -1,1 +1,105 @@
+// 👻━━━━━━━━━━━━━━━━━━━━━━ Reddit专项分流规则 ━━━━━━━━━━━━━━━━━━━━━━👻
 
+//              ⋆｡˚         ⋆ 
+//          .        /\_/\      ˚✧
+//               ~~~( •₋• )~~~ 
+//         ⋆      ฅ/  By  \ฅ    ˚
+//                 · 喵大人 ·       ⋆
+//            ˚✧       ⋆      ○
+
+// 参考：Gemini & DeepSeek & 抓包
+
+// 更新：
+// 2026年2月6日————新建专项分流规则
+// 2026年2月6日————优化代码界面，逐行注释域名含义
+// 2026年2月6日————
+
+// 🔭·························· [ 核心 ] ·····························🔭
+// Reddit主域名
+HOST-SUFFIX,reddit.com,Reddit
+// Reddit媒体域名
+HOST-SUFFIX,redd.it,Reddit
+// Reddit静态资源
+HOST-SUFFIX,redditstatic.com,Reddit
+// Reddit用户内容
+HOST-SUFFIX,redditmedia.com,Reddit
+// Reddit移动端
+HOST-SUFFIX,redditmobile.com,Reddit
+// Reddit投票服务
+HOST-SUFFIX,redditpoll.com,Reddit
+// Reddit礼品卡
+HOST-SUFFIX,redditgifts.com,Reddit
+
+// 🔭·························· [ API ] ·····························🔭
+// Reddit API服务
+HOST-SUFFIX,api.reddit.com,Reddit
+// Reddit OAuth认证
+HOST-SUFFIX,oauth.reddit.com,Reddit
+// Reddit GraphQL API
+HOST-SUFFIX,gql.reddit.com,Reddit
+// Reddit WebSocket服务
+HOST-SUFFIX,wss.reddit.com,Reddit
+
+// 🔭·························· [ 媒体 ] ·····························🔭
+// Reddit视频服务
+HOST-SUFFIX,v.redd.it,Reddit
+// Reddit直播服务
+HOST-SUFFIX,reddituploads.com,Reddit
+// Reddit直播CDN
+HOST-SUFFIX,reddit-video.com,Reddit
+// Reddit图像上传
+HOST-SUFFIX,i.redd.it,Reddit
+// Reddit图片上传
+HOST-SUFFIX,preview.redd.it,Reddit
+// Reddit样式图片
+HOST-SUFFIX,styles.redditmedia.com,Reddit
+// Reddit表情符号
+HOST-SUFFIX,emoji.redditmedia.com,Reddit
+
+// 🔭·························· [ 子域名 ] ···························🔭
+// Reddit旧版界面
+HOST-SUFFIX,old.reddit.com,Reddit
+// Reddit新版界面
+HOST-SUFFIX,new.reddit.com,Reddit
+// Reddit支付服务
+HOST-SUFFIX,pay.reddit.com,Reddit
+// Reddit商店
+HOST-SUFFIX,shop.reddit.com,Reddit
+// Reddit帮助中心
+HOST-SUFFIX,help.reddit.com,Reddit
+// Reddit状态页面
+HOST-SUFFIX,status.reddit.com,Reddit
+// Reddit企业博客
+HOST-SUFFIX,about.reddit.com,Reddit
+// Reddit招聘页面
+HOST-SUFFIX,careers.reddit.com,Reddit
+
+// 🔭·························· [ 第三方 ] ···························🔭
+// Reddit CDN服务
+HOST-SUFFIX,reddit.map.fastly.net,Reddit
+// Reddit Fastly CDN
+HOST-SUFFIX,fastly.redditmedia.com,Reddit
+// Reddit字体服务
+HOST-SUFFIX,fonts.redditmedia.com,Reddit
+// Reddit分析服务
+HOST-SUFFIX,analytics.reddit.com,Reddit
+// Reddit广告服务
+HOST-SUFFIX,ads.reddit.com,Reddit
+
+// 🔭·························· [ 关键词 ] ···························🔭
+// 包含reddit关键词的域名
+HOST-KEYWORD,reddit,Reddit
+
+// 🔭·························· [ IP地址 ] ···························🔭
+// Reddit IPv4地址段（示例）
+IP-CIDR,151.101.0.0/16,Reddit
+// Reddit IPv4地址段（示例）
+IP-CIDR,151.101.64.0/19,Reddit
+// Reddit IPv4地址段（示例）
+IP-CIDR,199.232.0.0/16,Reddit
+// Reddit IPv6地址段（示例）
+IP-CIDR6,2a04:4e42::/32,Reddit
+// Reddit IPv6地址段（示例）
+IP-CIDR6,2a04:4e40::/32,Reddit
+
+// 👻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━👻
